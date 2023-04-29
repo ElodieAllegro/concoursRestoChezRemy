@@ -1,0 +1,317 @@
+<html lang="fr">
+    <!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Le lieu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Buttons/2.0.0/css/buttons.min.css">
+    <link href="/assets /css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+   
+    <nav id="navbar" class="cc-navbar navbar navbar-expand-lg navbar-dark  w-100">
+        <div class="container-fluid">
+            <img class="rounded" src="/assets /image/logo.svg" alt="">
+    
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-4">
+                    <a class="nav-link fs-4" aria-current="page" href="/index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item pe-4 fs-4">
+                        <a class="nav-link" href="/menu.html">La Carte</a>
+                    </li>
+                    <li class="nav-item pe-4 fs-4">
+                        <a class="nav-link" href="/lieu.html">Le lieu</a>
+                    </li>
+                    <li class="nav-item le-4">
+                        <a class="btn btn-order rounded-0 fs-4" href="/compte.html">Mes réservations</a>
+                    </li>
+                </ul>
+                
+            </div>
+         </div>
+    </nav>
+    <section class="bannerLieu d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6" id="glass">
+                    <h2 class="marriweather text-white text-center md-4" >Réserver une table</h2>
+                    <form  class="justify-content" action="POST">
+                        <div class="row">
+                            <div class="col mb-6 col-sm">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+                                    <input type="text" class="form-control" placeholder="Votre nom" aria-label="Username"
+                                        aria-describedby="basic-addon1">
+                                </div>
+                            <div class="input-group mb-3">
+                                <label class="input-group-text" for="inputGroupSelect01"><i class="fas fa-solid fa-calendar"></i></label>
+                                <select class="form-select" id="inputGroupSelect01">
+                                    <option selected>Horaire</option>
+                                    <option value="Midi">Midi</option>
+                                    <option value="Soir">Soir</option>
+                                </select>
+                            </div>
+                            <div class="input-group mb-3">
+                                <label class="input-group-text" for="inputGroupSelect01"><i class="fas fa-sort-numeric-up-alt"></i></label>
+                                <select class="form-select" id="inputGroupSelect01">
+                                    <option selected>Nombre de personnes</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            </div>
+                            <div class="col mb-6 col-sm">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1">
+                                    <i class="fas fa-at"></i></span>
+                                    <input type="email" class="form-control" placeholder="Email" aria-label="Username"
+                                        aria-describedby="basic-addon1">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1">
+                                    <i class="fas fa-phone"></i></span>
+                                    <input type="number" class="form-control" placeholder="Numero de téléphone" aria-label="Phone"
+                                        aria-describedby="basic-addon1">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <label class="input-group-text" for="inputGroupSelect01"><i class="fas fa-duotone fa-map-pin"></i></label>
+                                    <select class="form-select" id="inputGroupSelect01">
+                                        <option selected>Lieu</option>
+                                        <option value="1">Lieu 1</option>
+                                        <option value="2">Lieu 2</option>
+                                        <option value="3">Lieu 3</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="row">
+                            <div class="input-group">
+                                <span class="input-group-text">Plus d'informations</span>
+                                <textarea class="form-control" aria-label="With textarea"></textarea>
+                                
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-warning mt-5 text-center" type="submit">Réserver</a>
+                        </div>
+                       
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    <section class="available merriweather py-5">
+        <div class="container"> 
+            <div class="row">
+                <div class="card mb-3 border-0 rounded-0">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="carouselExampleIndicators" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                   
+                                    
+                                </div>
+                                 <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="/assets /image/enseigne.svg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/assets /image/salleResto.svg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/assets /image/tableResto.svg"  class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/assets /image/salon.svg"  class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/assets /image/tableExpress.svg"  class="d-block w-100" alt="...">
+                                        </div>
+                                    
+                                </div>
+                               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body px-0">
+                            <h2 class="card-title">Le restaurant</h2>
+                            <p class="card-text fs-5 mt-4">
+                                Dans cet univers démesuré, vous prendrez place sur un bouchon de champagne géant autour d'un gigantesque pot de confiture. 
+                                Les ombrelles à cocktail, livres de cuisine et couverts surdimensionnés vous donneront l'impression d'avoir rétréci !
+                                Vous serez accueillis dans un premier temps dans notre salon où un concktail de bienvenus vous sera servis, ensuite nous vous installerons a la table que vous aurez préalablement réservé.
+                            </p>
+                            <a href="#navbar" class="btn text-muted">Réserver votre table</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card mb-3 border-0 rounded-0">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card-body px-0">
+                            <h2 class="card-title">Ils n'attendent que vous !</h2>
+                            <p class="card-text fs-5 mt-4">
+                                Toute l'équipe du bistot est impatiente de vous reçevoir.
+                                Nos tables partent comme des petits pains, donc ne tardez pas à 
+                                réserver( au moins deux mois à l'avance) via le formulaire de reservation par téléphone au 
+                                01.94.35.80.18 ou bien via notre application mobile.
+                            </p>
+    
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="carouselExampleCaptions" class="carousel slide">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="/assets /image/chefs.svg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                
+                                 
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="/assets /image/brigade.svg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                 
+                                  
+                                </div>
+                              </div>
+                             
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card mb-3 border-0 rounded-0">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="carousel" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                   
+                                    
+                                </div>
+                                 <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="/assets /image/salade.svg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/assets /image/platRemy.svg"  class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/assets /image/dessert.svg"  class="d-block w-100" alt="...">
+                                        </div>
+                                        
+                                    
+                                </div>
+                               <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
+                        </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body px-0">
+                                <h2 class="card-title">La gastronomie française</h2>
+                                <p class="card-text fs-5 mt-4">
+                                    Régalez-vous dans ce bistrot parisien.
+                                    Au menu de cette expérience ir-rat-ionnelle, le chef Rémy a prévu un menu spécial : salades de saison, pièce de bœuf, brie de Meaux, une vaste sélection de desserts, sans oublier l'incontournable ratatouille ! Bon appétit !
+                            
+                                </p>
+                                <p class="card-text"><a href="/menu.html" class="btn text-muted">Découvrir la carte</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid border-top border-dark">
+        <h1 class="text-center merriweather my-5"><em>Chez Rémy</em>, la gastronomie française en plein coeur de Paris </h1>
+        <div class="container">
+            <h3 class="text-center pt-4">Contactez-nous</h3>
+           
+          
+        <div class="row">
+              <div class="col-md-4">
+                <p><em class="text-decoration-underline">Nos coordonnées:</em></p>
+                <p><span class="glyphicon glyphicon-map-marker"></span><em class="text-decoration-underline">Deux restaurants:</em> Paris,<br> Marne-la-vallée France</p>
+                <p><span class="glyphicon glyphicon-phone"></span><em class="text-decoration-underline">Contact:</em> 01.94.35.80.18 </p>
+                <p><span class="glyphicon glyphicon-envelope"></span><em class="text-decoration-underline">Email:</em> chezremy@mail.com</p>
+               <div class="col-md-6">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-pinterest" viewBox="0 0 16 16">
+                    <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                  </svg>
+               </div>
+              </div>
+              <div class="col-md-8">
+                <div class="row my-2">
+                  <div class="col-sm-6 form-group">
+                    <input class="form-control border border-black" id="name" name="name" placeholder="Nom" type="text" required>
+                  </div>
+                  <div class="col-sm-6 form-group">
+                    <input class="form-control border border-black" id="email" name="email" placeholder="Email" type="email" required>
+                  </div>
+                </div>
+                <textarea class="form-control border border-black" id="comments" name="comments" placeholder="Votre message:" rows="5"></textarea>
+                <br>
+                <div class="row">
+                  <div class="col-md-12 form-group mb-4">
+                    <button class="btn btn-dark pull-right" type="submit">Envoyer</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </footer>
+        
+        <script src="/assets /js/bootstrap.min.js"></script>
+    </body>

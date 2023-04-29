@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Kufam:wght@700&display=swap');
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+.kufam{
+    font-family:'kufam'sans serif;
+}
+.redressed {
+    font-family: 'redressed',cursive;
+}
+.merriweather{
+    font-family: 'merriweather',serif;
+}
+
+.cc-navbar{
+   
+    height: 170px;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 1;
+    
+    
+}
+.cc-navbar .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+    color:black;
+}
+.cc-navbar .nav-link:hover{
+    padding-bottom: 20px;
+    border-bottom-color: black;
+}
+.navbar-brand{
+    font-family:'kufam', serif;
+    margin:40px 0px 0px 50px;
+}
+.banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets /image/fond.svg')
+    center center fixed no-repeat;
+    background-size: cover;
+    height: 960px;
+}
+.bannerMenu{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets /image/menuCarte.svg')
+    center center fixed no-repeat;
+    background-size:cover;
+    height:800px;
+}
+.bannerLieu{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets /image/laPlace.svg')
+    center center fixed no-repeat;
+    background-size:cover;
+    height:800px;  
+}
+.banner .banner-desc{
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+}
+.btn-order {
+color: black;
+border-color:black ;
+transition: 0.5s; 
+}
+
+.btn-order:hover,
+.btn-order:active {
+    color:#fff;
+    background-color: black;
+}
+.cc-menu{
+   background-color: #fff;
+    height: 1800px;
+}
+cc-menuMenu {
+    background-color: #fff;
+    height: 2200px;  
+}
+.btn-default{
+    color: white;
+}
+.rounded{
+    width: 400px;
+    height:auto;
+}
+#glass{
+background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.jumbotron{
+    height:20vh;
+}
+.reservation{
+    height:1000px;
+}
