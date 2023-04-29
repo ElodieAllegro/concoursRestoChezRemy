@@ -14,7 +14,7 @@
     font-family: 'merriweather',serif;
 }
 
-.cc-navbar{
+.navbar{
    
     height: 170px;
     box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
@@ -22,14 +22,16 @@
     
     
 }
-.cc-navbar .nav-link {
-    border-bottom: 1px solid transparent;
+.navbar .nav-link {
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
     transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
     color:black;
 }
-.cc-navbar .nav-link:hover{
+.navbar .nav-link:hover{
     padding-bottom: 20px;
-    border-bottom-color: black;
+    border-bottom-color:red;
+    border-top-color:blue;
 }
 .navbar-brand{
     font-family:'kufam', serif;
@@ -45,13 +47,13 @@
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets /image/menuCarte.svg')
     center center fixed no-repeat;
     background-size:cover;
-    height:800px;
+    height: 960px;
 }
 .bannerLieu{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets /image/laPlace.svg')
     center center fixed no-repeat;
     background-size:cover;
-    height:800px;  
+    height: 960px;
 }
 .banner .banner-desc{
     font-size: 48px;
@@ -73,7 +75,7 @@ transition: 0.5s;
    background-color: #fff;
     height: 1800px;
 }
-cc-menuMenu {
+.cc-menuMenu {
     background-color: #fff;
     height: 2200px;  
 }
