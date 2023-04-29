@@ -12,103 +12,104 @@
 </head>
 
 <body>
-   
-<nav class="cc-navbar navbar navbar-expand-lg navbar-dark  w-100">
-    <div class="container-fluid">
-        <img class="rounded" src="/assets /image/logo.svg" alt="">
 
-        
+<nav class="navbar merriweather navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="/assets /image/logo.png" alt="" width="300" height="auto" class="d-inline-block align-text-top"></a></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item pe-4">
-                <a class="nav-link fs-4" aria-current="page" href="/index.html">Accueil</a>
-                </li>
-                <li class="nav-item pe-4 fs-4">
-                    <a class="nav-link" href="/menu.html">La Carte</a>
-                </li>
-                <li class="nav-item pe-4 fs-4">
-                    <a class="nav-link" href="/lieu.html">Le lieu</a>
-                </li>
-                <li class="nav-item le-4">
-                    <a class="btn btn-order rounded-0 fs-4" href="/compte.html">Mes réservations</a>
-                </li>
-            </ul>
-            
-        </div>
-     </div>
-</nav>
-<section class="banner d-flex merriweather justify-content-center align-items-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6"></div>
-            <div class="col-md-6" id="glass">
-                <h2 class="marriweather text-white text-center md-4" >Réserver une table</h2>
-                <form  class="justify-content" action="POST">
-                    <div class="row">
-                        <div class="col mb-6 col-sm">
-                            <div class="input-group mb-3">
-                                <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
-                                <input type="text" class="form-control" placeholder="Votre nom" aria-label="Username"
-                                    aria-describedby="basic-addon1">
-                            </div>
-                        <div class="input-group mb-3">
-                            <label class="input-group-text" for="inputGroupSelect01"><i class="fas fa-solid fa-calendar"></i></label>
-                            <select class="form-select" id="inputGroupSelect01">
-                                <option selected>Horaire</option>
-                                <option value="Midi">Midi</option>
-                                <option value="Soir">Soir</option>
-                            </select>
-                        </div>
-                        <div class="input-group mb-3">
-                            <label class="input-group-text" for="inputGroupSelect01"><i class="fas fa-sort-numeric-up-alt"></i></label>
-                            <select class="form-select" id="inputGroupSelect01">
-                                <option selected>Nombre de personnes</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                        </div>
-                        </div>
-                        <div class="col mb-6 col-sm">
-                            <div class="input-group mb-3">
-                                <span class="input-group-text" id="basic-addon1">
-                                <i class="fas fa-at"></i></span>
-                                <input type="email" class="form-control" placeholder="Email" aria-label="Username"
-                                    aria-describedby="basic-addon1">
-                            </div>
-                            <div class="input-group mb-3">
-                                <span class="input-group-text" id="basic-addon1">
-                                <i class="fas fa-phone"></i></span>
-                                <input type="number" class="form-control" placeholder="Numero de téléphone" aria-label="Phone"
-                                    aria-describedby="basic-addon1">
-                            </div>
-                            <div class="input-group mb-3">
-                                <label class="input-group-text" for="inputGroupSelect01"><i class="fas fa-duotone fa-map-pin"></i></label>
-                                <select class="form-select" id="inputGroupSelect01">
-                                    <option selected>Lieu</option>
-                                    <option value="1">Lieu 1</option>
-                                    <option value="2">Lieu 2</option>
-                                    <option value="3">Lieu 3</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>  
-                    <div class="row">
-                        <div class="input-group">
-                            <span class="input-group-text">Plus d'informations</span>
-                            <textarea class="form-control" aria-label="With textarea"></textarea>
-                        </div>
-                        <div class="input-group text-center">
-                            <button type="button" class="btn btn-warning mt-5" > envoyer</button>
-                              
-                           
-                        </div>
-                    </div>
-                </form>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-4">
+                    <a class="nav-link fs-4" aria-current="page" href="/index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item pe-4 fs-4">
+                        <a class="nav-link" href="/menu.html">La Carte</a>
+                    </li>
+                    <li class="nav-item pe-4 fs-4">
+                        <a class="nav-link" href="/lieu.html">Le lieu</a>
+                    </li>
+                    <li class="nav-item le-4">
+                        <a class="btn btn-order rounded-0 fs-4" href="/compte.html">Mes réservations</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
-    
+    </nav>
+
+<section class="banner d-flex merriweather justify-content-center align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6" id="glass">
+                    <h2 class="marriweather text-white text-center md-4" >Réserver une table</h2>
+                    <form  class="justify-content" action="POST">
+                        <div class="row">
+                            <div class="col mb-6 col-sm">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+                                    <input type="text" class="form-control" placeholder="Votre nom" aria-label="Username"
+                                        aria-describedby="basic-addon1">
+                                </div>
+                            <div class="input-group mb-3">
+                                <label class="input-group-text" for="inputGroupSelect01"><i class="fas fa-solid fa-calendar"></i></label>
+                                <select class="form-select" id="inputGroupSelect01">
+                                    <option selected>Horaire</option>
+                                    <option value="Midi">Midi</option>
+                                    <option value="Soir">Soir</option>
+                                </select>
+                            </div>
+                            <div class="input-group mb-3">
+                                <label class="input-group-text" for="inputGroupSelect01"><i class="fas fa-sort-numeric-up-alt"></i></label>
+                                <select class="form-select" id="inputGroupSelect01">
+                                    <option selected>Nombre de personnes</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            </div>
+                            <div class="col mb-6 col-sm">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1">
+                                    <i class="fas fa-at"></i></span>
+                                    <input type="email" class="form-control" placeholder="Email" aria-label="Username"
+                                        aria-describedby="basic-addon1">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1">
+                                    <i class="fas fa-phone"></i></span>
+                                    <input type="number" class="form-control" placeholder="Numero de téléphone" aria-label="Phone"
+                                        aria-describedby="basic-addon1">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <label class="input-group-text" for="inputGroupSelect01"><i class="fas fa-duotone fa-map-pin"></i></label>
+                                    <select class="form-select" id="inputGroupSelect01">
+                                        <option selected>Lieu</option>
+                                        <option value="1">Lieu 1</option>
+                                        <option value="2">Lieu 2</option>
+                                        <option value="3">Lieu 3</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="row">
+                            <div class="input-group">
+                                <span class="input-group-text">Plus d'informations</span>
+                                <textarea class="form-control" aria-label="With textarea"></textarea>
+                            </div>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-warning mt-5 text-center" type="submit">Réserver</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
 </section>
 
 <footer class="container-fluid border-top border-dark">
@@ -157,3 +158,4 @@
 </body>
 
 </html>
+    
